@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Projects\counter\CounterApp\main.ncd
+OUTFILE=E:\Projects\counter\CounterApp\main.bit
+FAMILY=Spartan6
+PART=xc6slx9-3ftg256
+WORKINGDIR=E:\Projects\counter\CounterApp
+LICENSE=WebPack
+USER_INFO=211213386_0_0_119

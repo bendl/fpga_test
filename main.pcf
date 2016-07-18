@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Jul 16 23:30:56 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CLK50" LOCATE = SITE "K3" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "N9" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "M9" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "P9" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "T8" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "N8" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "P8" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "P7" LEVEL 1;
+COMP "PORTB5" LOCATE = SITE "F13" LEVEL 1;
+COMP "RESET" LOCATE = SITE "L5" LEVEL 1;
+NET "CLK50_BUFGP/IBUFG" PERIOD = 20 ns HIGH 50%;
+SCHEMATIC END;
+
