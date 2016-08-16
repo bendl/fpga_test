@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Sat Jul 16 23:30:42 2016">
+  <application stringID="Xst" timeStamp="Mon Aug 15 18:10:14 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="E:\Apps\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;E:\Apps\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Tools\Git\cmd;E:\Apps\SVN\bin;E:\Tools"/>
+          <item stringID="value" value="E:\Apps\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;E:\Apps\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\Tools\Git\cmd;E:\Apps\SVN\bin;E:\Tools;E:\tools\nodejs4.4.7\;E:\Tools\GnuWin32\bin;E:\Apps\MinGW\bin;E:\Apps\CLion 2016.1.3\bin\cmake\bin;E:\Tools\Python3.5.2\Scripts;E:\Apps\Vim\vim74;C:\Users\BDL\AppData\Roaming\npm"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>

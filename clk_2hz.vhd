@@ -33,12 +33,13 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 entity clk_2hz is
 	port (
 		CLK50: in std_logic;
-		CLK2HZ: out std_logic
+		CLK_OUT: out std_logic
 	);
 end clk_2hz;
 
 architecture Behavioral of clk_2hz is
 	signal counter: std_logic_vector(20 downto 0);
+	signal clk_state: std_logic := '0';
 begin
 
 	ScalerProcess: process(CLK50)
@@ -47,6 +48,8 @@ begin
 			if(counter >= "100110001001011010000") then 
 				counter <= (others => '0');
 			else
+			
+				CLK_OUT <= NOT(clk_state);
 				counter <= counter + 1;
 			end if;
 		end if;

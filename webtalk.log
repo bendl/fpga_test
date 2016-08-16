@@ -4,7 +4,7 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Project Information
 --------------------
 ProjectID=D1860109F95C44C59C88B30833A1A817
-ProjectIteration=7
+ProjectIteration=8
 
 WebTalk Summary
 ----------------
@@ -13,4 +13,4 @@ INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
 INFO:WebTalk:8 - WebTalk Install setting is ON.
 INFO:WebTalk:6 - WebTalk User setting is ON.
 
-INFO:WebTalk:4 - E:/Projects/counter/CounterApp/usage_statistics_webtalk.html WebTalk report has been successfully sent to Xilinx on 2016-07-16T23:31:14.  For additional details about this file, please refer to the WebTalk help file at E:/Apps/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
+INFO:WebTalk:4 - E:/Projects/counter/CounterApp/usage_statistics_webtalk.html WebTalk report has been successfully sent to Xilinx on 2016-08-15T18:10:59.  For additional details about this file, please refer to the WebTalk help file at E:/Apps/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html

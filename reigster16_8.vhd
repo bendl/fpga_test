@@ -53,8 +53,6 @@ begin
 	begin
 		if(rising_edge(in_clk)) then
 			out_data <= data;
-			
-			if(
 		end if;
 	end process;
 
